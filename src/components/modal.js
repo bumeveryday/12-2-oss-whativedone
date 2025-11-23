@@ -34,6 +34,7 @@ const handleSubmit = () => {
         onSave(inputs); 
     };
 
+
 return (
         <div>
             {/* 제목도 상황에 따라 바뀜 */}

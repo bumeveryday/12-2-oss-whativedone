@@ -1,4 +1,4 @@
-function Display({data, deleteMusic})  {
+function Display({data, deleteMusic, editMusic})  {
 
     return (
         <ul id="music-list">
@@ -13,7 +13,7 @@ function Display({data, deleteMusic})  {
                     </button>
                     <button 
                         className="btn btn-warning btn-sm" 
-                        //onClick={() => modifyMusic(item.id)}
+                        onClick={() => editMusic(item)}
                     >
                         수정
                     </button>
