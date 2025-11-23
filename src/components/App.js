@@ -1,5 +1,5 @@
-import MusicModal from "./components/modal";
-import Display from "./components/display";
+import MusicModal from "./modal";
+import Display from "./display";
 import { useEffect, useState } from 'react';
 
 
